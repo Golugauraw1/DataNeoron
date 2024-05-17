@@ -1,5 +1,10 @@
 # Getting Started with Create React App
-<div href=""dataneuron1.netlify.app"> Deployed
+<h1>Deployed</h1>
+<div>
+  <a href="https://dataneuron1.netlify.app/"> Frontend Deployed Link</a>
+</div>
+<div>
+  <a href="https://dataneuron-m7dm.onrender.com/api"> Backend Deployed Link</a>
 </div>
 <h1>HOME</h1>
 <img
