@@ -2,9 +2,10 @@
 const express = require('express');
 const bodyParser = require('body-parser');
 const { mongoose } = require('mongoose');
-
+const dotenv = require('dotenv')
+dotenv.config()
 const app = express();
-const uri="mongodb+srv://ampilkumarverma:nuPpw2uomeYATf3j@nodetraining.r0ujgao.mongodb.net/?retryWrites=true&w=majority&appName=nodeTraining"
+const uri =process.env.DB_URL
 async function connectToDatabase() {
     try {
       // Connect to the MongoDB database
